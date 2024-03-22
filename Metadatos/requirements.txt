@@ -1,3 +1,31 @@
+___  ___       _               _         _               
+|  \/  |      | |             | |       | |              
+| .  . |  ___ | |_   __ _   __| |  __ _ | |_   ___   ___ 
+| |\/| | / _ \| __| / _` | / _` | / _` || __| / _ \ / __|
+| |  | ||  __/| |_ | (_| || (_| || (_| || |_ | (_) |\__ \
+\_|  |_/ \___| \__| \__,_| \__,_| \__,_| \__| \___/ |___/
+
+
+Para usar el script de extracción de metadatos en archivos .docx, .xlsx y .pdf, sigue estos pasos:
+
+1.- Instalar las librerías:
+Abre una terminal y ejecuta pip install python-docx openpyxl PyPDF2 para instalar las dependencias requeridas.
+
+2.- Guardar el script:
+Copia el código en un editor de texto y guárdalo con un nombre descriptivo, como metadatos.py.
+
+3.- Configurar la ruta:
+Edita la variable ruta_directorio en el script, asignándole la ruta del directorio que contiene los archivos a analizar. Usa barras dobles (\\) o simples (/) para evitar errores en la ruta.
+
+4.- Ejecutar el script:
+En la terminal, navega al directorio donde guardaste el script y ejecútalo con Python mediante python metadatos.py.
+
+5.- Revisar los resultados:
+El script mostrará los metadatos de cada archivo .docx, .xlsx, y .pdf encontrado en el directorio especificado.
+
+
+
+Requisitos:
 et-xmlfile==1.1.0
 lxml==5.1.0
 openpyxl==3.1.2
