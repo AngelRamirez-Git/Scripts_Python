@@ -1,0 +1,31 @@
+______         _    _                    _   _                          
+| ___ \       | |  | |                  | \ | |                         
+| |_/ / _   _ | |_ | |__    ___   _ __  |  \| | _ __ ___    __ _  _ __  
+|  __/ | | | || __|| '_ \  / _ \ | '_ \ | . ` || '_ ` _ \  / _` || '_ \ 
+| |    | |_| || |_ | | | || (_) || | | || |\  || | | | | || (_| || |_) |
+\_|     \__, | \__||_| |_| \___/ |_| |_|\_| \_/|_| |_| |_| \__,_|| .__/ 
+         __/ |                                                   | |    
+        |___/                                                    |_|    
+
+
+Para usar el script de PythonNmap, sigue estos pasos:
+
+1. Instalar las Dependencias:
+Abre una terminal y asegúrate de que nmap y python-nmap están instalados. En caso de no estarlo, puedes instalar python-nmap ejecutando:
+pip install python-nmap
+
+2. Ejecutar el Script:
+Abre una terminal y navega al directorio donde has guardado el script. Una vez allí, ejecuta el script con el comando:
+python nmap_scanner.py
+
+4. Ingresar Datos Solicitados por el Script:
+Hosts: El script te pedirá que ingreses las direcciones IP los hosts que deseas escanear. Puedes ingresar una dirección IP única o un rango de IPs.
+Puertos: A continuación, ingresa los puertos a escanear. Puedes especificar un rango como 22-443 o dejarlo en blanco para escanear todos los puertos.
+Argumentos Adicionales: Si deseas añadir argumentos específicos para el escaneo, ingrésalos cuando se te solicite. Algunos ejemplos comunes son -sV para detección de servicios o -O para detección de sistema operativo.
+Superusuario: Por último, indica si quieres ejecutar el escaneo como superusuario (requerido para ciertos tipos de escaneos). Responde con s para sí o simplemente presiona Enter para no.
+
+
+
+
+Requisitos:
+python-nmap==0.7.1
